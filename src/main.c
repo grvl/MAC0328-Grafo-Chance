@@ -101,7 +101,7 @@ int main(int argc, char *argv[]) {
   avg *= 100.;
   variancia *= 100.;
 
-  printf("Em um grafo com %d arestas e %d vertices, tem (%f +- %f) %% chance de duas vertices estarem conectadas.\n", a, v, avg, variancia);
+  printf("Em um grafo com %d arestas e %d vertices, tem (%.2f +- %.2f) %% chance de duas vertices estarem conectadas.\n", a, v, avg, variancia);
 
   return 0;
 }
